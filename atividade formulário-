@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário do Paciente </h1>
+
+    <form action="" method="get">
+
+<fieldset>
+
+    <label for="nome"> Nome </label> 
+    <input type="text" name="Nome" id="Nome">
+    <label for="">Data de nascimento</label>
+    <input type="date" name="" id="">
+    <label for="CPF">CPF do Paciente</label>
+    <input type="text" name="CPF" id="CPF">
+
+
+</fieldset>
+
+<fieldset>
+    Genêro:  <label for="Masculino">Masculino</label>
+    <input type="radio" name="genero" id="Masculino">  | | 
+    <label for="feminino"> Feminino</label>
+    <input type="radio" name="genero" id="Feminino"> | |
+    <label for="Prefiro não dizer">Prefiro não dizer</label> 
+    <input type="radio" name="genero" id="Prefiro">
+   
+</fieldset>
+    <fieldset>
+        <label for="">Data e Horário da priemira consulta:</label>
+    </fieldset>
+
+    <fieldset>
+        <label for="Origem:">Origem:</label>
+        <label for="privado">Privado</label>
+        <input type="button" value="">  | |
+        <label for="sus">S.U.S</label>  | |
+        <input type="button" value=""> <br> <br>
+        <label for="und ref">Unidade de Referência:</label>
+    </fieldset>
+
+    <fieldset>
+        <label for="escolaridade">Escolaridade:</label> 
+        <select name="Opção" id="">
+            <option value="">OPÇÕES</option>
+            <option value="">Ensino Médio Completo</option>
+            <option value="">Ensino Médio Incompleto</option>
+            <option value="">Superior Completo</option>
+            <option value="">Superior Incompleto</option>
+            <option value="">Superior Cursando</option>
+            
+        </select>
+        <label for="">Ocupação:</label>
+    
+    </fieldset>
+
+
+      
+
+
+       
+    </form>
+</body>
+</html>
